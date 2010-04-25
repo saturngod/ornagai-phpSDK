@@ -1,0 +1,4 @@
+Usage
+-----
+
+check example.php
