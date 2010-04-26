@@ -48,7 +48,7 @@ class ornagai
 	{
 		$ch = curl_init();
 		
-		curl_setopt($ch, CURLOPT_URL, "http://www.ornagai.com/index.php/api/word/q/".$word."/count/1/format/json");
+		curl_setopt($ch, CURLOPT_URL, "http://www.ornagai.com/index.php/api/count/q/".$word."format/json");
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_TRANSFERTEXT, TRUE);
 		$return=curl_exec($ch);
